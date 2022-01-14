@@ -22,7 +22,7 @@ const Banner = ({
   <Flex flexWrap="wrap" justifyContent="center" align="center" m="10">
     <Image src={imageUrl} width={500} height={300} alt="ad banner" />
     <Box p="5">
-      <Text color="gray.500" fontSize="sm" fontWeight="medium">
+      <Text color="blue.500" fontSize="sm" fontWeight="medium">
         {purpose}
       </Text>
       <Text fontSize="3xl" fontWeight="bold">
@@ -35,7 +35,7 @@ const Banner = ({
         <br />
         {desc2}
       </Text>
-      <Button fontSize="x1">
+      <Button fontSize="x1" bg="blue.300" color="white">
         <Link href={linkName}>{buttonText}</Link>
       </Button>
     </Box>
