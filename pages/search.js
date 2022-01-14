@@ -49,7 +49,7 @@ const Search = ({ properties }) => {
         >
           <Image src={noresult} alt="No result" />
           <Text fontSize="xl" marginTop="3">
-            No Result Found.
+            Sorry the error is from me, I am working on it!.
           </Text>
         </Flex>
       )}
